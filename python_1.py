@@ -6,9 +6,13 @@ def fact(n):
 	for i in range(1,n+1):
 		x*i;
 	print("Factorial is:"+str(x))
+def hW():
+	print("Hello World")
 if __name__ == '__main__':
+	hW()
 	print("Enter Number:")
 	n = int(input())
 	print("Table of "+str(n)+":")
 	table(n)
 	fact(n)
+	
